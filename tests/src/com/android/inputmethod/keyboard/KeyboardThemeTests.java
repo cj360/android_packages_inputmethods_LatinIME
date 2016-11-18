@@ -137,7 +137,7 @@ public class KeyboardThemeTests {
     }
 
     private void assertKeyboardThemePreferenceOnLxx(final int sdkVersion) {
-        final int defaultThemeId = THEME_ID_LXX_LIGHT;
+        final int defaultThemeId = THEME_ID_LXX_DARK;
         assertKeyboardThemePreference(sdkVersion, THEME_ID_NULL, defaultThemeId);
         assertKeyboardThemePreference(sdkVersion, THEME_ID_ICS, THEME_ID_ICS);
         assertKeyboardThemePreference(sdkVersion, THEME_ID_KLP, THEME_ID_KLP);
